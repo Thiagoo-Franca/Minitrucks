@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+
+.post {
+    background-color: rgb(250, 250, 250);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 20px;
+    width: 370px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 10px;
+    color: rgb(50, 46, 46);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.post:hover {
+    background-color: rgb(240, 240, 231);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .post {
+        width: 250px;
+    }
+}

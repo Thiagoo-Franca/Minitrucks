@@ -1,0 +1,58 @@
+.footer {
+    background-color: rgb(65, 65, 65);
+    height: 200px;
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+}
+
+.logoWhatsapp {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+.logoInstagram {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.logoYoutube {
+    height: 23px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.footer {
+    color : white;
+}
+
+nav {
+    margin: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+li {
+    margin: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
